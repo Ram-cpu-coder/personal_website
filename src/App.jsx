@@ -3,7 +3,6 @@ import "./App.css";
 import AppRoutes from "./routes/AppRoutes";
 import StarField from "./components/StarField";
 import { useDispatch } from "react-redux";
-import { contributionFromDbAction } from "./feature/githubContributionAction";
 
 function App() {
   const dispatch = useDispatch();

@@ -12,7 +12,7 @@ const ContactMe = () => {
       <div className=" text-center fs-3">
         {t("paragraph1")} &nbsp;
         <a
-          href="mailto:ramkumardhimal2058@gmail.com"
+          href="mailto:sabitraoli0380@gmail.com"
           className="text-decoration-none"
         >
           {t("paragraph2")}

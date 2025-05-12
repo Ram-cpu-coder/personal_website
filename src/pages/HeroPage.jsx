@@ -74,7 +74,7 @@ const HeroPage = () => {
           {/* /> */}
         </h2>
         <p className="py-2 text-center" ref={descRef}>
-          {t("line3")}
+          {/* {t("line3")} */}
         </p>
         <div className="d-flex gap-4 justify-content-center">
           <Link to="/projects" className="">
@@ -82,7 +82,7 @@ const HeroPage = () => {
               {t("btn1")}
             </button>
           </Link>
-          <a href="./Resume.pdf" className="">
+          <a href="" className="">
             <button className="button-white rounded" ref={btnRef2}>
               {t("btn2")}
             </button>

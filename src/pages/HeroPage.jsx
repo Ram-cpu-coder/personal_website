@@ -82,7 +82,7 @@ const HeroPage = () => {
               {t("btn1")}
             </button>
           </Link>
-          <a href="" className="">
+          <a href="./resume.pdf" className="">
             <button className="button-white rounded" ref={btnRef2}>
               {t("btn2")}
             </button>

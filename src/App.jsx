@@ -5,9 +5,7 @@ import StarField from "./components/StarField";
 import { useDispatch } from "react-redux";
 
 function App() {
-  const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(contributionFromDbAction());
     localStorage.setItem("i18nextLng", "en");
   }, []);
   return (

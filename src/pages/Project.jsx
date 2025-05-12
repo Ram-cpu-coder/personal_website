@@ -1,5 +1,4 @@
 import React from "react";
-import { projectsList } from "../assets/projects";
 import ProjectCard from "../components/card/ProjectCard";
 import { useTranslation } from "react-i18next";
 

@@ -4,8 +4,8 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import gsap from "gsap";
-import { Provider } from "react-redux";
-import store from "./store/reduxStore.js";
+// import { Provider } from "react-redux";
+// import store from "./store/reduxStore.js";
 import "./i18n.js";
 
 // Root-level mouse tracking logic
@@ -92,9 +92,9 @@ createRoot(document.getElementById("root")).render(
     {/* // this is the cursor following the actual pointer globally */}
     <GlobalCursor />
     <Suspense fallback="Loading ... ">
-      <Provider store={store}>
-        <App />
-      </Provider>
+      {/* <Provider store={store}> */}
+      <App />
+      {/* </Provider> */}
     </Suspense>
   </React.StrictMode>
 );
